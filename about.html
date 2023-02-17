@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/rollbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./pictures/logo-curriculo.png">  
+       
+
+    <title>Portfólio</title>
+</head>
+<body>    
+    <header>        
+        <div id="header-alignment">            
+            <div class="item" id="logo">
+                <a href="./index.html"><img src="./pictures/logo-curriculo-vetor-02.png" alt="logo meu currículo Victor"></a>             
+            </div>     
+            
+            <div class="change-color">
+                <h4 id="txt-animation-color">Altere a cor do site</h4>
+                <div class="input-decoration">
+                    <label onclick="showMessage()" class="switch-btn">                        
+                        <input type="checkbox" id="input-original">       
+                        <div class="transition"></div>                        
+                    </label>            
+                    <label  onclick="showMessage()" class="switch-btn-green">                        
+                        <input type="checkbox" id="input-green">       
+                        <div class="transition"></div>                        
+                    </label>            
+                    <label  onclick="showMessage()" class="switch-btn-gold">                        
+                        <input type="checkbox" id="input-red">       
+                        <div class="transition"></div>                        
+                    </label>            
+                </div>
+            </div>
+            
+            <div class="item" id="social">
+                <div id="linkedin-logo"><a href="https://www.linkedin.com/in/victor-dvlpr/" target="_blank"> 
+                    <img src="./pictures/linkedin-black-white.png" alt="linkedin logo"></a></div>       
+
+                <div id="instagram-logo"><a href="https://www.instagram.com/" target="_blank"> 
+                    <img src="./pictures/logo-instagram-white.png" alt="instagram logo"> </a></div>
+
+                <div id="git-logo"><a href="https://github.com/VCTRdvlpr" target="_blank">
+                    <img src="./pictures/github-logo-white.png" alt="github logo"></a></div>    
+            </div>                             
+        </div>        
+        <nav>
+            <ul>
+                <div id="nav-bar">                     
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="about"><a href="./about.html">Sobre</a></li> 
+                    <li id="projects"><a href="./projects.html">Projetos</a>
+                        <ul class="expansivel">
+                            <li id="links"><a href="./projects.html"> Links </a></li>
+                            <li id="description"><a href="./description.html"> Descrição </a></li>
+                    </li>        
+                        </ul>                
+                    </div>              
+            </ul>        
+        </nav>
+    </header>   
+    <main>
+        <div class="about-main">            
+            <section class="about-me">                
+                <p> <span id="pontos">  Clique abaixo em <span id="strong-read-more">leia mais</span> e saiba mais sobre mim!</span>
+                    <span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                         magnam deleniti eveniet repudiandae delectus? Explicabo eum 
+                        accusantium, ad omnis dolor modi aspernatur voluptas rerum repellat. 
+                        Maxime laudantium expedita id aspernatur? Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Facere dolorem quidem libero quis enim quasi porro
+                         rerum minus expedita rem in, cumque tenetur unde ut illum qui molestiae? Sunt, optio.</span> 
+                </p>
+                <button onclick="leiaMais()" id="btn-leia-mais">Leia Mais</button>               
+            </section>           
+            <section class="skills">                                                          
+                <div class="hard-skills">
+                    <div class="btn-style-list">
+                        <button onclick="readMore()" id="about-left">
+                            Hard Skills
+                        </button> 
+                    </div>                      
+                    <ul id="hard-skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Metodologia SCRUM</li>
+                    </ul>                
+                </div>
+                <div class="soft-skills">
+                    <div class="btn-style-list">
+                        <button onclick="readMoreSoft()" id="about-right">Soft Skills</button> 
+                    </div>
+                    <ul id="soft-skills-list">
+                        <li>Facilidade no aprendizado</li>
+                        <li>Bom raciocínio lógico</li>
+                        <li>Boa comunicação</li>
+                        <li>text 01</li>
+                        <li>text 02</li>
+                    </ul>
+                </div>            
+            </section>                        
+        </div>               
+    </main>                 
+    <footer>
+        <div id="figure-center">
+            <figure><img src="./pictures/logo-curriculo-vetor.png" alt="logo meu currículo Victor"></figure>
+        </div>
+        <h1 id="footer-title">Developed by: <font color="#8536CB">Victor Hugo</font></h1>        
+    </footer>
+
+    <script type="text/javascript" src="./js/function-about-read-more.js"></script>
+    <script type="text/javascript" src="./js/function-hard-skills.js"></script>
+    <script type="text/javascript" src="./js/function-soft-skills.js"></script>    
+    <script type="text/javascript" src="./js/function-change-color.js"></script>
+</body>
+</html>
