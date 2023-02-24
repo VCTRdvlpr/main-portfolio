@@ -612,7 +612,7 @@ filter: brightness(150%);
 }
 
     
-.left-alinhamento{    
+.left-alignment{    
     width: 100%;
     display: flex;
     justify-content: space-between;    
@@ -646,20 +646,16 @@ filter: brightness(150%);
     height: 100vh;   
 }
 
-.avatar{    
-    width: 100%;  
-    height: 100vh;      
+.avatar-alignment{            
     display: flex;    
-    align-items: center;         
+    align-items: center;           
 }
 
-.avatar img{    
-    height: 85vh;
-    padding: 0 0 0vh 0;    
-    margin: 40vh 0 5vh 0;
+.avatar-alignment img{    
+    height: 85vh;     
+    margin: 180px 0 0px 0;
     position:fixed;    
-    filter: drop-shadow(25px 0px 15px black);
-    
+    filter: drop-shadow(25px 0px 15px black);        
 }
 
 #avatar-smile{
@@ -667,22 +663,19 @@ filter: brightness(150%);
 }
 
 .txt-apresentation{
+    display: flex;
+    align-items: center;
+    text-align:center;       
+    cursor: context-menu;  
     font-family: 'Amatic SC', cursive;
     margin: 5vh 10vh 0 0;    
     font-size: 1.3em;
     width: 50%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    text-align:center;
-    justify-content: center;   
-    cursor: context-menu;          
+    height: 50%;               
 }
 
-.txt-apresentation:hover{    
-    transform: rotate(360deg);
-    transition: 0.9s ease-in-out;
-    letter-spacing: 10px;       
+.txt-apresentation:hover{     
+    letter-spacing: 10px;           
 }
 
 #title01 span, #step01 span{
