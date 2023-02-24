@@ -34,6 +34,37 @@
    
 }
 
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #e228d8 #070d12;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #070d12;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 17, 167);
+    border-radius: 30px;
+    border: 5px solid #070d12;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    }
+
 body{    
     background: linear-gradient(45deg, rgb(94, 94, 94) -10%, rgba(0,0,0,1) 63%, rgb(76, 84, 85) 155%); 
     background-repeat: no-repeat;
