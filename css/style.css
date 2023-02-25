@@ -389,7 +389,7 @@ footer{
     text-align: right;     
     min-width: 320px; 
     width: 100%;    
-    filter: blur(1.5px);    
+    filter: blur(1.5px);           
 }
 
 footer:hover{
@@ -684,10 +684,21 @@ filter: brightness(150%);
 
 #step01{
     display: none;
+    flex-direction: column;
     transition: 1.0s ease-in-out;    
     font-size: 2em;
-    padding: 3vh 0 3vh 3vh;
-    border-left: 1px solid whitesmoke;
+    padding: 3vh 0 9vh 3vh;    
+    font-weight: bold;      
+}
+
+.margin-top{
+    margin: 100px 0 0 0;
+}
+
+.margin-top-02{
+    padding: 15px 0 0 0;
+    margin: 15px 0 0 0;
+    border-top: 1px solid #ffff;
 }
 
 #step01:hover{
@@ -697,3 +708,6 @@ filter: brightness(150%);
     color: rgba(245, 245, 245, 0.671);
 }
 
+color{
+    color: #a6c2ff;
+}
