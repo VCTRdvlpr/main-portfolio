@@ -1,4 +1,4 @@
 function showMessage(){
-alert('Desculpe, esta função está em desenvolvimento !')
+window.alert("Desculpe, esta função está em desenvolvimento !")
 
 }
