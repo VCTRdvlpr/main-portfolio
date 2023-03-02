@@ -435,6 +435,7 @@ footer figure img{
     font-size: 17px;
     text-align: justify;    
     letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 #more{
@@ -713,6 +714,10 @@ color{
 
 @media(max-width: 1080px){
 
+    header{
+        position: relative;
+    }    
+
     .change-color{
         display: none;
     }
@@ -722,22 +727,21 @@ color{
     }
 
     .header-alignment{
-        align-items: center;
-        justify-content: baseline;
+        align-items: baseline;
+        justify-content: space-evenly;
     }
-
-    .home-alignment{
-        display: flex;
-        margin: auto;
-    }
-
+   
     .txt-apresentation{
         width: 100%;        
         margin: auto;
+        padding: 0px 15px;        
     }
-    
-
+       
     .home-alignment figure{
         display: none;
     }
+
+    .txt-apresentation:hover{     
+    letter-spacing: 0px;           
+    }     
 } 
