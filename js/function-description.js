@@ -5,6 +5,7 @@ var image03=document.getElementById("txt-img-03");
 var image04=document.getElementById("txt-img-04");
 var image05=document.getElementById("txt-img-05");
 var image06=document.getElementById("txt-img-06");
+var image07=document.getElementById("txt-img-07");
 
 
 
@@ -68,3 +69,12 @@ function showImage06(){
     image06.style.display="inline";
 };
 
+function hoverImage07(){ 
+
+    image07.style.display="none";               
+};
+
+function showImage07(){
+
+    image07.style.display="inline";
+};
