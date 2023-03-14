@@ -746,8 +746,7 @@ color{
     }     
 
     .left-alignment{
-        flex-direction:column-reverse;
-        border: 2px solid orangered;
+        flex-direction:column-reverse;        
         align-items: center;
     }
 
@@ -767,6 +766,10 @@ color{
     .img-left:hover{
         width: 85%;
         height: 50%;
+    }
+
+    .left-txt-alinhamento p:hover{
+        font-size: 1em;
     }
 
 } 
