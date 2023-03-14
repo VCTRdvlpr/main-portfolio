@@ -617,8 +617,7 @@ filter: brightness(150%);
     display: flex;
     justify-content: space-between;    
     text-align: center;    
-    padding: 50px 0 50px 0;  
- 
+    padding: 50px 0 50px 0;   
 }
 
 .left-txt-alinhamento{   
@@ -745,4 +744,29 @@ color{
     .txt-apresentation:hover{     
     letter-spacing: 0px;           
     }     
+
+    .left-alignment{
+        flex-direction:column-reverse;
+        border: 2px solid orangered;
+        align-items: center;
+    }
+
+    .left-txt-alinhamento{
+        align-items: center;               
+    }
+
+    .left-txt-alinhamento p{
+        padding: 0 50px;
+    }
+
+    .img-left{
+        width: 85%;
+        height: 50%;
+    }
+
+    .img-left:hover{
+        width: 85%;
+        height: 50%;
+    }
+
 } 
