@@ -716,7 +716,20 @@ color{
 
     header{
         position: relative;
+        opacity: 1;
     }    
+
+    footer{
+        filter: blur(0px);
+        display: flex;
+        flex-direction: column;        
+    }
+
+    #footer-title{
+        position: absolute;
+        bottom: 5%;
+        right: 10%;
+    }
 
     .change-color{
         display: none;
@@ -748,11 +761,10 @@ color{
     .left-alignment{
         flex-direction:column-reverse;        
         align-items: center;
-        justify-content:start;
-        border: 2px solid orangered;
+        justify-content:start;        
         padding: 0px;
         height: 400px;        
-        gap: 30px;
+        gap: 30px;        
     }
 
     .left-txt-alinhamento{
@@ -760,7 +772,7 @@ color{
     }
 
     .left-txt-alinhamento p{
-        padding: 0 15%;
+        padding: 0 25%;
     }
 
     .img-left{
