@@ -714,6 +714,10 @@ color{
 
 @media(max-width: 1080px){
 
+    *{
+        outline: none;
+    }
+
     header{
         position: relative;
         opacity: 1;
