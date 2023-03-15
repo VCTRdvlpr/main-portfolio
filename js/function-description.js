@@ -11,6 +11,7 @@ var image07=document.getElementById("txt-img-07");
 
 function hoverImage(){ 
 
+    
     image01.style.display="none";               
 };
 

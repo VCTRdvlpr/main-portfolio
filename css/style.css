@@ -748,6 +748,11 @@ color{
     .left-alignment{
         flex-direction:column-reverse;        
         align-items: center;
+        justify-content:start;
+        border: 2px solid orangered;
+        padding: 0px;
+        height: 400px;        
+        gap: 30px;
     }
 
     .left-txt-alinhamento{
@@ -755,21 +760,24 @@ color{
     }
 
     .left-txt-alinhamento p{
-        padding: 0 50px;
+        padding: 0 15%;
     }
 
     .img-left{
         width: 85%;
-        height: 50%;
+        height: 150px;
     }
 
     .img-left:hover{
         width: 85%;
-        height: 50%;
+        height: 30%;
     }
 
     .left-txt-alinhamento p:hover{
         font-size: 1em;
     }
 
+    .img-left{
+        display: none;
+    }
 } 
